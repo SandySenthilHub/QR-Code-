@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="container">
+
+            <div class="outerbor">
+
+                <div><img class="logo" src="./signinlogo.png" alt="Error"><div>
+                <form name="form" onsubmit="return valid()">
+
+                    <div class="SignEma">
+                        <lable>Email Id / User Name </lable>
+                         <input type="email" name="Email"> 
+                         <div id="errEmail">Please Provide valid Email..</div>
+                        </div>
+
+                    <div class="SignPas">
+                        <lable>Password</lable>
+                        <input type="password" name="Password">
+                        <div id="errPs">Please Provide Correct Password..</div>
+                    </div>
+                    <button class="in" onclick="location.href='./qrcode.html';" type="submit" id="signBtn">Sign In</button>
+                    <!-- <div class="popup" id="popup"></div> -->
+                    <p> Forget Password ? <a  id="link" href="#">Get It</a> </p>
+                        
+                    
+                   
+                </form>
+
+            </div>
+
+    </div>
+    <script src="signScript.js"></script>
+</body>
+</html>

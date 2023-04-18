@@ -1,0 +1,177 @@
+body {
+    margin: auto;
+    font-family: cursive;
+}
+
+.container {
+    /* border:2px solid blue; */
+    background-image: url(loginBg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+
+}
+
+.outerbor {
+    /* border:2px solid blue; */
+    box-shadow: 1px 1px 10px 10px black;
+    border-radius: 25px;
+    width: fit-content;
+    height: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    padding: 30px 40px 30px;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px 5px black;
+}
+
+.email,
+.password,
+.userName {
+    margin: 20px;
+
+}
+
+.input {
+    background: transparent;
+    box-shadow: 1px 1px 5px 5px black;
+    border-radius: 25px;
+    border: none;
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px 5px black;
+    border-radius: 25px;
+    padding: 6px;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#link:hover {
+    background-color: rgb(49, 134, 173);
+    cursor: pointer;
+}
+
+
+
+.lable {
+    position: relative;
+    bottom: 10px;
+    right: 100px;
+    display: block;
+    font-size: 20px;
+    color: white;
+
+
+
+}
+
+.SignPas,
+.SignEma {
+    position: relative;
+
+}
+
+lable {
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+
+
+
+}
+
+input {
+    background: transparent;
+    box-shadow: 1px 1px 5px 5px black;
+    border-radius: 25px;
+    border: none;
+    height: 50px;
+    width: 350px;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.in {
+    border-radius: 30px;
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+    text-align: center;
+    background: none;
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 5px 5px black;
+    padding: 5px;
+    font-weight: bolder;
+    font-family: cursive;
+    margin-top: 32px;
+}
+
+.in:hover {
+    background-color: rgb(49, 134, 173);
+    cursor: pointer;
+}
+
+#errEmail,#errPs{
+    margin-top:-15px;
+    width:345px;
+    color:red;
+    box-shadow: 1px 1px 1px 1px rgb(233, 71, 71);
+    border-radius: 15px;
+    width:350px;
+    padding:3px;
+    display:none;
+
+}
+
+/* .popup{
+    border: 2px solid black;
+    padding:20px;
+    transform: translate(-50px, -50px) scale(0.1);
+    top:0%;
+    left:45%;
+    position: absolute;
+    width:100px;
+    display: none;
+    transition: transform 0.4s, top 0.4s;
+
+}
+
+.openPopup{
+    display: visible;
+    top:50%;
+    transform: translate(-50px, -50px) scale(1);
+} */
+

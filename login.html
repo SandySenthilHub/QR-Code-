@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="container">
+
+            <div class="outerbor">
+
+                <div><img class="logo" src="logo.png" alt="Error"><div>
+                <form>
+                    <div class="userName">
+                        <lable class="lable" >User Name</lable>
+                        <input class="input"  type="text">
+                    </div>
+                    <div class="email">
+                        <lable class="lable">Email Id </lable>
+                         <input class="input" type="email">
+                        </div>
+                    <div class="password">
+                        <lable class="lable">Password</lable>
+                        <input class="input"  type="password">
+                    </div>
+                 
+                        <a  id="link" href="#">Create Account</a>
+                    
+                   
+                </form>
+
+            </div>
+
+    </div>
+
+    <script>
+
+        var acc = document.getElementById('link');
+        acc.addEventListener('click',()=>{window.alert('Account Created Successfully')})
+
+    </script>
+    
+</body>
+</html>
